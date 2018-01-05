@@ -1,0 +1,9 @@
+{
+  "name": "cookie-clicker",
+  "version": "1.0.0",
+  "description": "Javascript Cookie Clicker game",
+  "main": "lib/server.js",
+  "repository": "https://github.com/brody20082/Cookie-Clicker",
+  "author": "Brody Critchlow <brodycritchlow@gmail.com>",
+  "license": "MIT"
+}
