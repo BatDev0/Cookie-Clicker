@@ -6,9 +6,13 @@
   "repository": "https://github.com/brody20082/Cookie-Clicker",
   "author": "Brody Critchlow <brodycritchlow@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon lib/server.js"
+  },
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "nodemon": "^1.14.7",
     "react": "^16.2.0"
   },
   "devDependencies": {
