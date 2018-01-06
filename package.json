@@ -7,7 +7,8 @@
   "author": "Brody Critchlow <brodycritchlow@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js"
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd"
   },
   "babel": {
     "presets": [
@@ -18,13 +19,16 @@
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "nodemon": "^1.14.7",
-    "react": "^16.2.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.1.2",
